@@ -2,10 +2,10 @@
 microservice:
   payment-service:
     endpoint:
-      uri: http://localhost:8989/order/placeOrder 
+      uri: http://localhost:8989/payment/doPayment 
   order-service:
     endpoint:
-      uri: http://localhost:8989/payment/1 
+      uri: http://localhost:8989/order/placeOrder 
 
 eureka:
   client:
